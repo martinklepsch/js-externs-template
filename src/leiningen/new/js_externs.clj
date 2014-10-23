@@ -12,6 +12,6 @@
     (main/info "Generating fresh 'lein new' js-externs project.")
     (->files data
              ["src/{{sanitized}}/PLACE_JS_LIBRARY_HERE"
-              (render "src/PLACE_JS_LIBRARY_HERE" data)
+              (render "PLACE_JS_LIBRARY_HERE" data)
               "src/{{sanitized}}/externs/PLACE_EXTERNS_HERE"
-              (render "src/externs/PLACE_EXTERNS_HERE" data)])))
+              (render "PLACE_EXTERNS_HERE" data)])))
